@@ -1,0 +1,27 @@
+SITE METIX — MISE EN LIGNE
+==========================
+
+Ce dossier contient le site complet, prêt à être hébergé :
+- 79 pages HTML (accueil, catalogue, 13 catégories, 63 produits, panier) + page 404
+- sitemap.xml et robots.txt pour Google
+- assets/ : feuille de style, script, logo, image de partage (og.png)
+- assets/photos/ : photos des produits
+
+MISE EN LIGNE SUR NETLIFY (gratuit)
+1. Créez un compte sur https://app.netlify.com
+2. Ouvrez « Add new site » > « Deploy manually »
+3. Glissez-déposez ce dossier entier dans la zone indiquée
+4. Le site est en ligne sur une adresse provisoire en .netlify.app
+5. « Domain management » > « Add a domain » : saisissez votre domaine (ex. metix.ma)
+   et recopiez chez votre registraire les réglages DNS affichés par Netlify.
+   Le HTTPS (cadenas) s'active automatiquement.
+
+APRÈS LA MISE EN LIGNE
+- Google Search Console : ajoutez le domaine, puis soumettez l'adresse
+  https://VOTRE-DOMAINE/sitemap.xml dans « Sitemaps ».
+- Créez votre fiche Google Business Profile avec l'adresse du site.
+
+IMPORTANT
+Les pages sont générées pour l'adresse https://www.metix.ma.
+Si votre domaine est différent, ou si vous modifiez les produits, les prix
+ou les coordonnées, le site doit être régénéré (demandez-le à Claude).

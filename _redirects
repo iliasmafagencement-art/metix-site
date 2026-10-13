@@ -1,0 +1,4 @@
+# Produits et catégories ajoutés depuis /admin/ : pas encore de page générée,
+# la page est construite par le site à partir de data/catalogue.json.
+/produit/*    /404.html   200
+/catalogue/*  /404.html   200

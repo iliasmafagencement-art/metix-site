@@ -1,0 +1,86 @@
+# Espace d'administration METIX (Decap CMS) — https://VOTRE-SITE/admin/
+# Connexion avec le compte GitHub ; chaque enregistrement met le site à jour (1 à 2 minutes).
+backend:
+  name: github
+  repo: iliasmafagencement-art/metix-site
+  branch: main
+  commit_messages:
+    update: "Catalogue : mise à jour"
+    uploadMedia: "Photo ajoutée : {{path}}"
+    deleteMedia: "Photo supprimée : {{path}}"
+
+locale: fr
+logo_url: /assets/logo.jpg
+site_url: https://www.metix.ma
+display_url: https://www.metix.ma
+
+# Photos envoyées depuis l'administration
+media_folder: assets/photos
+public_folder: /assets/photos
+
+collections:
+  - name: catalogue
+    label: Catalogue
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: produits
+        label: Produits et prix
+        file: data/catalogue.json
+        format: json
+        fields:
+          - label: Produits
+            label_singular: produit
+            name: produits
+            widget: list
+            collapsed: true
+            add_to_top: true
+            summary: "{{fields.nom}} · {{fields.ref}} · {{fields.prix}} DH"
+            fields:
+              - label: "Identifiant (unique : minuscules, chiffres et tirets, ex. bureau-oslo-2)"
+                name: id
+                widget: string
+                pattern: ['^[a-z0-9-]+$', "Uniquement des lettres minuscules sans accent, des chiffres et des tirets"]
+              - { label: "Nom du produit", name: nom, widget: string }
+              - { label: "Référence", name: ref, widget: string, required: false }
+              - label: "Catégorie"
+                name: cat
+                widget: select
+                options:
+                  - { label: "Bureaux", value: bureaux }
+                  - { label: "Bureaux de direction", value: bureaux-direction }
+                  - { label: "Présentoirs et bureaux d'accueil", value: presentoirs }
+                  - { label: "Fauteuils de bureau", value: fauteuils-bureau }
+                  - { label: "Fauteuils de direction", value: fauteuils-direction }
+                  - { label: "Ensemble de fauteuils", value: ensembles-fauteuils }
+                  - { label: "Tables de réunion", value: tables-reunion }
+                  - { label: "Armoires métalliques", value: armoires-metal }
+                  - { label: "Meubles de rangement", value: meubles-rangement }
+                  - { label: "Rayonnages métalliques", value: rayonnages-metalliques }
+                  - { label: "Vestiaires métalliques", value: vestiaires-metalliques }
+                  - { label: "Tables scolaires", value: tables-scolaires }
+                  - { label: "Tableaux scolaires", value: tableaux-scolaires }
+              - { label: "Prix en DH (vide = « Prix sur demande »)", name: prix, widget: number, value_type: int, min: 0, required: false }
+              - { label: "Prix avant promo en DH (rempli = prix barré + badge -XX %)", name: prixAvant, widget: number, value_type: int, min: 0, required: false }
+              - { label: "Dimensions", name: dims, widget: string, required: false }
+              - { label: "Description", name: desc, widget: text, required: false }
+              - { label: "Photo principale", name: image, widget: image, required: false, choose_url: false }
+              - label: "Autres photos (vignettes sur la fiche)"
+                name: galerie
+                widget: list
+                required: false
+                field: { label: "Photo", name: photo, widget: image, choose_url: false }
+              - label: "Dimensions au choix du client (si rempli, remplace le prix ci-dessus)"
+                label_singular: dimension
+                name: variantes
+                widget: list
+                required: false
+                summary: "{{fields.dims}} · {{fields.prix}} DH"
+                fields:
+                  - { label: "Dimension (ex. 140 x 70 cm)", name: dims, widget: string }
+                  - { label: "Référence", name: ref, widget: string, required: false }
+                  - { label: "Prix en DH (vide = sur demande)", name: prix, widget: number, value_type: int, min: 0, required: false }
+                  - { label: "Prix avant promo en DH", name: prixAvant, widget: number, value_type: int, min: 0, required: false }
+              - { label: "Épuisé", name: epuise, widget: boolean, default: false, required: false }
+              - { label: "Visible sur le site", name: visible, widget: boolean, default: true, required: false }

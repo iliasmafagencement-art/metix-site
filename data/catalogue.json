@@ -1,0 +1,931 @@
+{
+    "produits":  [
+                     {
+                         "id":  "c1284",
+                         "ref":  "C1284",
+                         "cat":  "bureaux",
+                         "nom":  "Bureau de travail",
+                         "prix":  2590,
+                         "dims":  "",
+                         "desc":  "",
+                         "epuise":  false,
+                         "accueil":  true,
+                         "image":  "/assets/photos/c1284-1.jpg",
+                         "galerie":  [
+                                         "/assets/photos/c1284-2.jpg"
+                                     ]
+                     },
+                     {
+                         "id":  "bd-panama",
+                         "ref":  "",
+                         "cat":  "bureaux",
+                         "nom":  "Bureau droit Panama",
+                         "prix":  null,
+                         "dims":  "",
+                         "desc":  "Bureau droit à plan de travail rectangulaire, pour un poste individuel",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  "/assets/photos/bd-panama-1.jpg"
+                     },
+                     {
+                         "id":  "bd-malabo",
+                         "ref":  "",
+                         "cat":  "bureaux",
+                         "nom":  "Bureau droit Malabo",
+                         "prix":  null,
+                         "dims":  "",
+                         "desc":  "Bureau droit à plan de travail rectangulaire, pour un poste individuel",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  "/assets/photos/bd-malabo-1.jpg",
+                         "galerie":  [
+                                         "/assets/photos/bd-malabo-2.jpg"
+                                     ]
+                     },
+                     {
+                         "id":  "bd-madrid",
+                         "ref":  "",
+                         "cat":  "bureaux",
+                         "nom":  "Bureau droit Madrid",
+                         "prix":  null,
+                         "dims":  "",
+                         "desc":  "Bureau droit à plan de travail rectangulaire, pour un poste individuel",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  "/assets/photos/bd-madrid-1.jpg",
+                         "galerie":  [
+                                         "/assets/photos/bd-madrid-2.jpg"
+                                     ]
+                     },
+                     {
+                         "id":  "bd-kyo",
+                         "ref":  "",
+                         "cat":  "bureaux",
+                         "nom":  "Bureau droit Kyo",
+                         "prix":  null,
+                         "dims":  "",
+                         "desc":  "Bureau droit à plan de travail rectangulaire, pour un poste individuel",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  "/assets/photos/bd-kyo-1.jpg",
+                         "galerie":  [
+                                         "/assets/photos/bd-kyo-2.jpg"
+                                     ]
+                     },
+                     {
+                         "id":  "bd-tokyo",
+                         "ref":  "",
+                         "cat":  "bureaux",
+                         "nom":  "Bureau droit Tokyo",
+                         "prix":  null,
+                         "dims":  "",
+                         "desc":  "Bureau droit à plan de travail rectangulaire, pour un poste individuel",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  "/assets/photos/bd-tokyo-1.jpg",
+                         "galerie":  [
+                                         "/assets/photos/bd-tokyo-2.jpg"
+                                     ]
+                     },
+                     {
+                         "id":  "ba-individuel",
+                         "ref":  "",
+                         "cat":  "bureaux",
+                         "nom":  "Bureau d\u0027angle en L individuel",
+                         "prix":  null,
+                         "dims":  "",
+                         "desc":  "Bureau avec retour en L pour un poste, plus de surface de travail, retour à gauche ou à droite",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  "/assets/photos/ba-individuel-1.jpg",
+                         "galerie":  [
+                                         "/assets/photos/ba-individuel-2.jpg"
+                                     ]
+                     },
+                     {
+                         "id":  "ba-deux-places",
+                         "ref":  "",
+                         "cat":  "bureaux",
+                         "nom":  "Bureau d\u0027angle en L deux places",
+                         "prix":  null,
+                         "dims":  "",
+                         "desc":  "Bureau d\u0027angle en L pour deux postes de travail, retour à gauche ou à droite",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  "/assets/photos/ba-deux-places-1.jpg",
+                         "galerie":  [
+                                         "/assets/photos/ba-deux-places-2.jpg"
+                                     ]
+                     },
+                     {
+                         "id":  "bb-2",
+                         "ref":  "BB-2",
+                         "cat":  "bureaux",
+                         "nom":  "Bureau bench open space 2 places",
+                         "prix":  null,
+                         "dims":  "",
+                         "desc":  "Deux postes de travail face à face sur piètement commun, pour les open spaces",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  "/assets/photos/bb-2-1.jpg",
+                         "galerie":  [
+                                         "/assets/photos/bb-2-2.jpg",
+                                         "/assets/photos/bb-2-3.jpg",
+                                         "/assets/photos/bb-2-4.jpg",
+                                         "/assets/photos/bb-2-5.jpg"
+                                     ]
+                     },
+                     {
+                         "id":  "bb-4",
+                         "ref":  "BB-4",
+                         "cat":  "bureaux",
+                         "nom":  "Bureau bench open space 4 places",
+                         "prix":  null,
+                         "dims":  "",
+                         "desc":  "Quatre postes de travail face à face sur piètement commun, pour les open spaces",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  "/assets/photos/bb-4-1.jpg",
+                         "galerie":  [
+                                         "/assets/photos/bb-4-2.jpg"
+                                     ]
+                     },
+                     {
+                         "id":  "bb-6",
+                         "ref":  "BB-6",
+                         "cat":  "bureaux",
+                         "nom":  "Bureau bench open space 6 places",
+                         "prix":  null,
+                         "dims":  "",
+                         "desc":  "Six postes de travail face à face sur piètement commun, pour les open spaces",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  "/assets/photos/bb-6-1.jpg"
+                     },
+                     {
+                         "id":  "accueil-oslo",
+                         "ref":  "",
+                         "cat":  "presentoirs",
+                         "nom":  "Bureau d\u0027accueil Oslo",
+                         "prix":  null,
+                         "dims":  "",
+                         "desc":  "Banque d\u0027accueil avec comptoir surélevé et plan de travail, pour halls et réceptions",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "variantes":  [
+                                           {
+                                               "ref":  "",
+                                               "dims":  "120 cm",
+                                               "prix":  null
+                                           },
+                                           {
+                                               "ref":  "",
+                                               "dims":  "140 cm",
+                                               "prix":  null
+                                           },
+                                           {
+                                               "ref":  "",
+                                               "dims":  "160 cm",
+                                               "prix":  null
+                                           }
+                                       ],
+                         "image":  "/assets/photos/accueil-oslo-1.jpg",
+                         "galerie":  [
+                                         "/assets/photos/accueil-oslo-2.jpg"
+                                     ]
+                     },
+                     {
+                         "id":  "accueil-milano",
+                         "ref":  "",
+                         "cat":  "presentoirs",
+                         "nom":  "Bureau d\u0027accueil Milano",
+                         "prix":  null,
+                         "dims":  "",
+                         "desc":  "Banque d\u0027accueil avec comptoir surélevé et plan de travail, pour halls et réceptions",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "variantes":  [
+                                           {
+                                               "ref":  "",
+                                               "dims":  "120 cm",
+                                               "prix":  null
+                                           },
+                                           {
+                                               "ref":  "",
+                                               "dims":  "140 cm",
+                                               "prix":  null
+                                           },
+                                           {
+                                               "ref":  "",
+                                               "dims":  "160 cm",
+                                               "prix":  null
+                                           }
+                                       ],
+                         "image":  "/assets/photos/accueil-milano-1.jpg"
+                     },
+                     {
+                         "id":  "accueil-dubai",
+                         "ref":  "",
+                         "cat":  "presentoirs",
+                         "nom":  "Bureau d\u0027accueil Dubaï",
+                         "prix":  null,
+                         "dims":  "",
+                         "desc":  "Banque d\u0027accueil avec comptoir surélevé et plan de travail, pour halls et réceptions",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "variantes":  [
+                                           {
+                                               "ref":  "",
+                                               "dims":  "120 cm",
+                                               "prix":  null
+                                           },
+                                           {
+                                               "ref":  "",
+                                               "dims":  "140 cm",
+                                               "prix":  null
+                                           },
+                                           {
+                                               "ref":  "",
+                                               "dims":  "160 cm",
+                                               "prix":  null
+                                           }
+                                       ],
+                         "image":  "/assets/photos/accueil-dubai-1.jpg",
+                         "galerie":  [
+                                         "/assets/photos/accueil-dubai-2.jpg"
+                                     ]
+                     },
+                     {
+                         "id":  "accueil-lisboa",
+                         "ref":  "",
+                         "cat":  "presentoirs",
+                         "nom":  "Bureau d\u0027accueil Lisboa",
+                         "prix":  null,
+                         "dims":  "",
+                         "desc":  "Banque d\u0027accueil avec comptoir surélevé et plan de travail, pour halls et réceptions",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "variantes":  [
+                                           {
+                                               "ref":  "",
+                                               "dims":  "120 cm",
+                                               "prix":  null
+                                           },
+                                           {
+                                               "ref":  "",
+                                               "dims":  "140 cm",
+                                               "prix":  null
+                                           },
+                                           {
+                                               "ref":  "",
+                                               "dims":  "160 cm",
+                                               "prix":  null
+                                           }
+                                       ],
+                         "image":  "/assets/photos/accueil-lisboa-1.jpg"
+                     },
+                     {
+                         "id":  "accueil-vienna",
+                         "ref":  "",
+                         "cat":  "presentoirs",
+                         "nom":  "Bureau d\u0027accueil Vienna",
+                         "prix":  null,
+                         "dims":  "",
+                         "desc":  "Banque d\u0027accueil avec comptoir surélevé et plan de travail, pour halls et réceptions",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "variantes":  [
+                                           {
+                                               "ref":  "",
+                                               "dims":  "120 cm",
+                                               "prix":  null
+                                           },
+                                           {
+                                               "ref":  "",
+                                               "dims":  "140 cm",
+                                               "prix":  null
+                                           },
+                                           {
+                                               "ref":  "",
+                                               "dims":  "160 cm",
+                                               "prix":  null
+                                           }
+                                       ],
+                         "image":  "/assets/photos/accueil-vienna-1.jpg"
+                     },
+                     {
+                         "id":  "c1283",
+                         "ref":  "C1283",
+                         "cat":  "fauteuils-bureau",
+                         "nom":  "Fauteuil de bureau dossier bas",
+                         "prix":  1590,
+                         "dims":  "",
+                         "desc":  "Simili cuir noir rembourré, piètement chromé à 5 branches avec roulettes",
+                         "epuise":  true,
+                         "accueil":  true,
+                         "image":  null
+                     },
+                     {
+                         "id":  "c1281",
+                         "ref":  "C1281",
+                         "cat":  "ensembles-fauteuils",
+                         "nom":  "Pack fauteuil de bureau en simili",
+                         "prix":  4990,
+                         "dims":  "",
+                         "desc":  "",
+                         "epuise":  false,
+                         "accueil":  true,
+                         "image":  null
+                     },
+                     {
+                         "id":  "c1280",
+                         "ref":  "C1280",
+                         "cat":  "tables-reunion",
+                         "nom":  "Table de réunion Xona 2m40",
+                         "prix":  4990,
+                         "dims":  "Longueur 2,40 m",
+                         "desc":  "Forme rectangulaire, piètement plein, passe-câbles, panneau dérivé du bois mélaminé",
+                         "epuise":  true,
+                         "accueil":  true,
+                         "image":  null
+                     },
+                     {
+                         "id":  "c1279",
+                         "ref":  "C1279",
+                         "cat":  "bureaux-direction",
+                         "nom":  "Bureau de direction Elegant",
+                         "prix":  4290,
+                         "dims":  "",
+                         "desc":  "",
+                         "epuise":  false,
+                         "accueil":  true,
+                         "image":  "/assets/photos/c1279-1.jpg"
+                     },
+                     {
+                         "id":  "c1267",
+                         "ref":  "C1267",
+                         "cat":  "tables-scolaires",
+                         "nom":  "Table scolaire 2 places, structure métallique",
+                         "prix":  1190,
+                         "dims":  "",
+                         "desc":  "Modèle destiné aux classes et centres de formation",
+                         "epuise":  false,
+                         "accueil":  true,
+                         "image":  null
+                     },
+                     {
+                         "id":  "c1266",
+                         "ref":  "C1266",
+                         "cat":  "tables-scolaires",
+                         "nom":  "Table scolaire 1 place",
+                         "prix":  790,
+                         "dims":  "",
+                         "desc":  "Modèle individuel et compact",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  null
+                     },
+                     {
+                         "id":  "c1258",
+                         "ref":  "C1258",
+                         "cat":  "ensembles-fauteuils",
+                         "nom":  "Pack fauteuil de direction en simili cuir",
+                         "prix":  13900,
+                         "dims":  "",
+                         "desc":  "Pack de trois fauteuils : deux fauteuils et un fauteuil haut avec appui-tête, simili cuir, mousse et base métallique",
+                         "epuise":  true,
+                         "accueil":  false,
+                         "image":  null
+                     },
+                     {
+                         "id":  "b2417",
+                         "ref":  "B2417",
+                         "cat":  "bureaux-direction",
+                         "nom":  "Bureau de direction Picasos",
+                         "prix":  4390,
+                         "dims":  "",
+                         "desc":  "Bureau en bois avec retour, plateau et deux pieds de 38 mm, profondeur indiquée 800 mm",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  "/assets/photos/b2417-1.jpg"
+                     },
+                     {
+                         "id":  "b1055",
+                         "ref":  "B1055",
+                         "cat":  "bureaux-direction",
+                         "nom":  "Bureau de direction Panama",
+                         "prix":  4890,
+                         "dims":  "",
+                         "desc":  "Bureau en bois avec retour sur meuble fixe, plateau et piètement de 38 mm, profondeur indiquée 800 mm",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  null
+                     },
+                     {
+                         "id":  "b2504",
+                         "ref":  "B2504",
+                         "cat":  "bureaux-direction",
+                         "nom":  "Bureau de direction Cortinal",
+                         "prix":  5400,
+                         "dims":  "",
+                         "desc":  "Plateau mélaminé de 60 mm, chants ABS antichoc 2 mm",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  "/assets/photos/b2504-1.jpg"
+                     },
+                     {
+                         "id":  "b3989",
+                         "ref":  "B3989",
+                         "cat":  "bureaux-direction",
+                         "nom":  "Bureau de direction Noblesse",
+                         "prix":  9200,
+                         "dims":  "Environ 220 × 120 cm selon la fiche",
+                         "desc":  "Dimensions présentées comme approximatives sur la fiche",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  "/assets/photos/b3989-1.jpg"
+                     },
+                     {
+                         "id":  "b3270",
+                         "ref":  "B3270",
+                         "cat":  "bureaux-direction",
+                         "nom":  "Bureau de direction Boss",
+                         "prix":  7390,
+                         "dims":  "2000 mm de longueur",
+                         "desc":  "Bureau en bois avec retour et caisson mobile",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  "/assets/photos/b3270-1.jpg",
+                         "galerie":  [
+                                         "/assets/photos/b3270-2.jpg"
+                                     ]
+                     },
+                     {
+                         "id":  "b2028",
+                         "ref":  "B2028",
+                         "cat":  "bureaux-direction",
+                         "nom":  "Bureau de direction Moscou",
+                         "prix":  2900,
+                         "dims":  "",
+                         "desc":  "Bureau de direction avec piètement bois et retour sur caisson fixe",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  "/assets/photos/b2028-1.jpg"
+                     },
+                     {
+                         "id":  "b4237",
+                         "ref":  "B4237",
+                         "cat":  "bureaux-direction",
+                         "nom":  "Bureau de direction Winy",
+                         "prix":  4990,
+                         "dims":  "160 × 80 × 75 cm",
+                         "desc":  "",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  "/assets/photos/b4237-1.jpg"
+                     },
+                     {
+                         "id":  "b2651",
+                         "ref":  "B2651",
+                         "cat":  "bureaux-direction",
+                         "nom":  "Bureau de direction Thales",
+                         "prix":  6990,
+                         "dims":  "Bureau 200 cm, retour 120 × 40 × 75 cm",
+                         "desc":  "Bureau en bois MDF avec retour mobile sur roulettes",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  "/assets/photos/b2651-1.jpg",
+                         "galerie":  [
+                                         "/assets/photos/b2651-2.jpg"
+                                     ]
+                     },
+                     {
+                         "id":  "c1254",
+                         "ref":  "C1254",
+                         "cat":  "fauteuils-direction",
+                         "nom":  "Fauteuil de direction en simili cuir Liona",
+                         "prix":  1990,
+                         "dims":  "",
+                         "desc":  "Dossier haut enveloppant, assise et dossier rembourrés",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  null
+                     },
+                     {
+                         "id":  "230a",
+                         "ref":  "230A",
+                         "cat":  "fauteuils-direction",
+                         "nom":  "Fauteuil de direction en simili cuir",
+                         "prix":  2590,
+                         "dims":  "",
+                         "desc":  "",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  null
+                     },
+                     {
+                         "id":  "es-516",
+                         "ref":  "ES 516",
+                         "cat":  "fauteuils-bureau",
+                         "nom":  "Fauteuil en mesh",
+                         "prix":  1490,
+                         "dims":  "",
+                         "desc":  "",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  null
+                     },
+                     {
+                         "id":  "c1127",
+                         "ref":  "C1127",
+                         "cat":  "fauteuils-direction",
+                         "nom":  "Fauteuil de direction 616A",
+                         "prix":  2190,
+                         "dims":  "",
+                         "desc":  "Simili cuir",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  null
+                     },
+                     {
+                         "id":  "c1024",
+                         "ref":  "C1024",
+                         "cat":  "fauteuils-direction",
+                         "nom":  "Fauteuil de direction Alpy",
+                         "prix":  1290,
+                         "dims":  "",
+                         "desc":  "Mesh, accoudoirs fixes, piètement PVC",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  null
+                     },
+                     {
+                         "id":  "c1225",
+                         "ref":  "C1225",
+                         "cat":  "tables-reunion",
+                         "nom":  "Table de réunion Atria",
+                         "prix":  6499,
+                         "dims":  "",
+                         "desc":  "Table rectangulaire à deux pieds panneaux, plateau en MDF plaqué bois, finition noyer, épaisseur indiquée 40 mm",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  null
+                     },
+                     {
+                         "id":  "c1156",
+                         "ref":  "C1156",
+                         "cat":  "tables-reunion",
+                         "nom":  "Table de réunion Ovrale",
+                         "prix":  10990,
+                         "dims":  "",
+                         "desc":  "Table de réunion professionnelle",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  null
+                     },
+                     {
+                         "id":  "c1028",
+                         "ref":  "C1028",
+                         "cat":  "tables-reunion",
+                         "nom":  "Table de réunion Amiral",
+                         "prix":  2390,
+                         "dims":  "",
+                         "desc":  "Table de réunion professionnelle",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  null
+                     },
+                     {
+                         "id":  "a0511",
+                         "ref":  "A0511",
+                         "cat":  "armoires-metal",
+                         "nom":  "Classeur métallique pour dossiers suspendus",
+                         "prix":  2400,
+                         "dims":  "",
+                         "desc":  "Tôle d\u0027acier 8/10e, finition époxy, tiroirs extractibles",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  "/assets/photos/a0511-1.jpg",
+                         "galerie":  [
+                                         "/assets/photos/a0511-2.jpg",
+                                         "/assets/photos/a0511-3.jpg",
+                                         "/assets/photos/a0511-4.jpg",
+                                         "/assets/photos/a0511-5.jpg"
+                                     ]
+                     },
+                     {
+                         "id":  "b1985",
+                         "ref":  "B1985",
+                         "cat":  "meubles-rangement",
+                         "nom":  "Caisson métallique 3 tiroirs",
+                         "prix":  1090,
+                         "dims":  "",
+                         "desc":  "Structure métallique monobloc, verrouillage centralisé, 4 roulettes, peinture époxy",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  null
+                     },
+                     {
+                         "id":  "a0602",
+                         "ref":  "A0602",
+                         "cat":  "armoires-metal",
+                         "nom":  "Armoire basse métallique à 2 portes rideau",
+                         "prix":  2590,
+                         "dims":  "",
+                         "desc":  "Structure acier, peinture époxy, rideaux à lamelles PVC",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  "/assets/photos/a0602-1.jpg",
+                         "galerie":  [
+                                         "/assets/photos/a0602-2.jpg"
+                                     ]
+                     },
+                     {
+                         "id":  "armoire-metallique-2-portes",
+                         "ref":  "",
+                         "cat":  "armoires-metal",
+                         "nom":  "Armoire métallique haute 2 portes",
+                         "prix":  null,
+                         "dims":  "",
+                         "desc":  "Armoire à deux portes battantes avec serrure à clé, étagères intérieures pour dossiers et classeurs",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  "/assets/photos/armoire-metallique-2-portes-1.jpg",
+                         "galerie":  [
+                                         "/assets/photos/armoire-metallique-2-portes-2.jpg",
+                                         "/assets/photos/armoire-metallique-2-portes-3.jpg",
+                                         "/assets/photos/armoire-metallique-2-portes-4.jpg",
+                                         "/assets/photos/armoire-metallique-2-portes-5.jpg"
+                                     ]
+                     },
+                     {
+                         "id":  "a0489",
+                         "ref":  "A0489",
+                         "cat":  "rayonnages-metalliques",
+                         "nom":  "Rayonnage métallique à 5 tablettes",
+                         "prix":  850,
+                         "dims":  "",
+                         "desc":  "4 cornières en tôle 15/10e, 5 tablettes renforcées",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  "/assets/photos/a0489-1.jpg",
+                         "galerie":  [
+                                         "/assets/photos/a0489-2.jpg",
+                                         "/assets/photos/a0489-3.jpg",
+                                         "/assets/photos/a0489-4.jpg"
+                                     ]
+                     },
+                     {
+                         "id":  "b1867",
+                         "ref":  "B1867",
+                         "cat":  "rayonnages-metalliques",
+                         "nom":  "Rayonnage métallique",
+                         "prix":  1690,
+                         "dims":  "198 × 95 × 33 cm",
+                         "desc":  "5 tablettes réglables",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  null
+                     },
+                     {
+                         "id":  "vestiaire-1-porte",
+                         "ref":  "",
+                         "cat":  "vestiaires-metalliques",
+                         "nom":  "Casier vestiaire métallique 1 porte",
+                         "prix":  null,
+                         "dims":  "",
+                         "desc":  "Casier individuel une porte en tôle d\u0027acier, avec aérations et fermeture",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  "/assets/photos/vestiaire-1-porte-1.jpg",
+                         "galerie":  [
+                                         "/assets/photos/vestiaire-1-porte-2.jpg",
+                                         "/assets/photos/vestiaire-1-porte-3.jpg",
+                                         "/assets/photos/vestiaire-1-porte-4.jpg"
+                                     ]
+                     },
+                     {
+                         "id":  "b1977",
+                         "ref":  "B1977",
+                         "cat":  "vestiaires-metalliques",
+                         "nom":  "Casier vestiaire métallique 2 portes",
+                         "prix":  990,
+                         "dims":  "",
+                         "desc":  "Deux casiers superposés, portes avec fermeture par cadenas",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  "/assets/photos/b1977-1.jpg",
+                         "galerie":  [
+                                         "/assets/photos/b1977-2.jpg"
+                                     ]
+                     },
+                     {
+                         "id":  "b1869",
+                         "ref":  "B1869",
+                         "cat":  "vestiaires-metalliques",
+                         "nom":  "Casier vestiaire métallique 3 portes",
+                         "prix":  1090,
+                         "dims":  "",
+                         "desc":  "Trois casiers, structure en tôle d\u0027acier 7/10e",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  "/assets/photos/b1869-1.jpg",
+                         "galerie":  [
+                                         "/assets/photos/b1869-2.jpg"
+                                     ]
+                     },
+                     {
+                         "id":  "b1870",
+                         "ref":  "B1870",
+                         "cat":  "vestiaires-metalliques",
+                         "nom":  "Casier vestiaire métallique 4 portes",
+                         "prix":  1190,
+                         "dims":  "190 × 30 × 42,5 cm",
+                         "desc":  "Construction soudée monobloc, tôle 7/10 mm",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  "/assets/photos/b1870-1.jpg",
+                         "galerie":  [
+                                         "/assets/photos/b1870-2.jpg",
+                                         "/assets/photos/b1870-3.jpg",
+                                         "/assets/photos/b1870-4.jpg"
+                                     ]
+                     },
+                     {
+                         "id":  "vestiaire-9-portes",
+                         "ref":  "",
+                         "cat":  "vestiaires-metalliques",
+                         "nom":  "Vestiaire métallique 9 portes",
+                         "prix":  null,
+                         "dims":  "",
+                         "desc":  "Neuf casiers individuels sur trois colonnes, portes avec serrure et aérations. Disponible en blanc ou en gris",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  "/assets/photos/vestiaire-9-portes-1.jpg",
+                         "galerie":  [
+                                         "/assets/photos/vestiaire-9-portes-2.jpg",
+                                         "/assets/photos/vestiaire-9-portes-3.jpg"
+                                     ]
+                     },
+                     {
+                         "id":  "vestiaire-multicases-2",
+                         "ref":  "",
+                         "cat":  "vestiaires-metalliques",
+                         "nom":  "Vestiaire multicases 2 cases",
+                         "prix":  null,
+                         "dims":  "",
+                         "desc":  "Vestiaire métallique à deux cases fermant à clé, pour ranger les effets personnels",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  "/assets/photos/vestiaire-multicases-2-1.jpg"
+                     },
+                     {
+                         "id":  "vestiaire-en-z",
+                         "ref":  "",
+                         "cat":  "vestiaires-metalliques",
+                         "nom":  "Vestiaire métallique en Z",
+                         "prix":  null,
+                         "dims":  "",
+                         "desc":  "Deux casiers imbriqués en Z dans une seule colonne, avec penderie, pour deux utilisateurs dans un espace réduit",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  "/assets/photos/vestiaire-en-z-1.jpg",
+                         "galerie":  [
+                                         "/assets/photos/vestiaire-en-z-2.jpg",
+                                         "/assets/photos/vestiaire-en-z-3.jpg"
+                                     ]
+                     },
+                     {
+                         "id":  "b1886",
+                         "ref":  "B1886",
+                         "cat":  "tables-scolaires",
+                         "nom":  "Table scolaire individuelle sans casier",
+                         "prix":  350,
+                         "dims":  "",
+                         "desc":  "Structure métallique, plateau mélaminé 19 mm",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  null
+                     },
+                     {
+                         "id":  "b2207",
+                         "ref":  "B2207",
+                         "cat":  "tables-scolaires",
+                         "nom":  "Table scolaire individuelle avec casier",
+                         "prix":  390,
+                         "dims":  "Plateaux disponibles : 60 × 40, 70 × 50 ou 80 × 60 cm",
+                         "desc":  "Plusieurs hauteurs proposées",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  null
+                     },
+                     {
+                         "id":  "b1883",
+                         "ref":  "B1883",
+                         "cat":  "tables-scolaires",
+                         "nom":  "Table scolaire biplace sans casier",
+                         "prix":  540,
+                         "dims":  "120 × 45 × 73 cm",
+                         "desc":  "",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  null
+                     },
+                     {
+                         "id":  "b1891",
+                         "ref":  "B1891",
+                         "cat":  "tables-scolaires",
+                         "nom":  "Table scolaire biplace avec casier",
+                         "prix":  590,
+                         "dims":  "120 × 45 × 73 cm",
+                         "desc":  "",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  null
+                     },
+                     {
+                         "id":  "b2206",
+                         "ref":  "B2206",
+                         "cat":  "tables-scolaires",
+                         "nom":  "Table écolier deux places",
+                         "prix":  850,
+                         "dims":  "120 × 45 × 73 cm",
+                         "desc":  "Plateau en bois stratifié, pieds en métal",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  null
+                     },
+                     {
+                         "id":  "b3678",
+                         "ref":  "B3678",
+                         "cat":  "tableaux-scolaires",
+                         "nom":  "Tableau blanc magnétique double face",
+                         "prix":  600,
+                         "dims":  "",
+                         "desc":  "Acier émaillé magnétique, surface pour marqueur effaçable, encadrement aluminium",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  null
+                     },
+                     {
+                         "id":  "a0503",
+                         "ref":  "A0503",
+                         "cat":  "tableaux-scolaires",
+                         "nom":  "Tableau blanc aimant magnétique",
+                         "prix":  390,
+                         "dims":  "",
+                         "desc":  "Acier émaillé magnétique, surface effaçable à sec, encadrement aluminium",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  null
+                     },
+                     {
+                         "id":  "a0504",
+                         "ref":  "A0504",
+                         "cat":  "tableaux-scolaires",
+                         "nom":  "Tableau d\u0027affichage en liège",
+                         "prix":  199,
+                         "dims":  "",
+                         "desc":  "Panneau de particules avec fond liège pour punaises et épingles",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  null
+                     },
+                     {
+                         "id":  "a0519",
+                         "ref":  "A0519",
+                         "cat":  "meubles-rangement",
+                         "nom":  "Armoire bibliothèque en bois",
+                         "prix":  2490,
+                         "dims":  "180 × 80 × 45 cm",
+                         "desc":  "Panneaux de particules mélaminés 18 mm",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  null
+                     },
+                     {
+                         "id":  "a0593",
+                         "ref":  "A0593",
+                         "cat":  "meubles-rangement",
+                         "nom":  "Armoire de bureau en bois avec 4 étagères",
+                         "prix":  2490,
+                         "dims":  "",
+                         "desc":  "Armoire à portes battantes",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  null
+                     },
+                     {
+                         "id":  "a0548",
+                         "ref":  "A0548",
+                         "cat":  "meubles-rangement",
+                         "nom":  "Armoire de bureau en bois",
+                         "prix":  1490,
+                         "dims":  "",
+                         "desc":  "Panneaux mélaminés 18 mm, poignée métal, fermeture à clé",
+                         "epuise":  false,
+                         "accueil":  false,
+                         "image":  null
+                     }
+                 ]
+}

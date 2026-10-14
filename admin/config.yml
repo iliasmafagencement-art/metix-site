@@ -10,7 +10,7 @@ backend:
     deleteMedia: "Photo supprimée : {{path}}"
 
 locale: fr
-logo_url: /assets/logo.jpg
+logo_url: /assets/logo-mobidar.jpg
 site_url: https://www.mobidar.ma
 display_url: https://www.mobidar.ma
 

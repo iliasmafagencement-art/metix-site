@@ -333,7 +333,7 @@ function jsonLdFor(){
     out.push(d, crumbs([['Accueil','/'],['Catalogue',U.cat('tous')],[c.nom,U.cat(c.id)],[p.nom,U.prod(p)]])); }
   else if(state.view==='catalog'){ const c=state.cat!=='tous'&&catOf(state.cat);
     out.push(crumbs(c?[['Accueil','/'],['Catalogue',U.cat('tous')],[c.nom,U.cat(c.id)]]:[['Accueil','/'],['Catalogue',U.cat('tous')]])); }
-  else if(state.view==='home'){ const k=SITE.contact, d={'@context':'https://schema.org','@type':k.adresse?'LocalBusiness':'Organization','name':'Mobidar','url':abs('/'),'logo':abs('/assets/logo.jpg'),'image':abs('/assets/og.png'),'slogan':SITE.slogan,'description':'Fabrication, service et aménagement : mobilier de bureau, rangement, vestiaires et mobilier scolaire, avec livraison partout au Maroc.','areaServed':{'@type':'Country','name':'Maroc'}};
+  else if(state.view==='home'){ const k=SITE.contact, d={'@context':'https://schema.org','@type':k.adresse?'LocalBusiness':'Organization','name':'Mobidar','url':abs('/'),'logo':abs('/assets/logo-mobidar.jpg'),'image':abs('/assets/og-mobidar.png'),'slogan':SITE.slogan,'description':'Fabrication, service et aménagement : mobilier de bureau, rangement, vestiaires et mobilier scolaire, avec livraison partout au Maroc.','areaServed':{'@type':'Country','name':'Maroc'}};
     if(k.adresse) d.address={'@type':'PostalAddress','streetAddress':k.adresse,'addressCountry':'MA'};
     if(k.telephone) d.telephone=k.telephone; if(k.email) d.email=k.email;
     const same=SITE.reseaux.map(r=>r.url).filter(u=>/^https?:\/\//.test(u||'')); if(same.length) d.sameAs=same;

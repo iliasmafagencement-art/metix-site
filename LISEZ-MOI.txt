@@ -1,4 +1,4 @@
-SITE METIX — MISE EN LIGNE
+SITE Mobidar — MISE EN LIGNE
 ==========================
 
 Ce dossier contient le site complet, prêt à être hébergé :
@@ -12,7 +12,7 @@ MISE EN LIGNE SUR NETLIFY (gratuit)
 2. Ouvrez « Add new site » > « Deploy manually »
 3. Glissez-déposez ce dossier entier dans la zone indiquée
 4. Le site est en ligne sur une adresse provisoire en .netlify.app
-5. « Domain management » > « Add a domain » : saisissez votre domaine (ex. metix.ma)
+5. « Domain management » > « Add a domain » : saisissez votre domaine (ex. mobidar.ma)
    et recopiez chez votre registraire les réglages DNS affichés par Netlify.
    Le HTTPS (cadenas) s'active automatiquement.
 
@@ -22,6 +22,6 @@ APRÈS LA MISE EN LIGNE
 - Créez votre fiche Google Business Profile avec l'adresse du site.
 
 IMPORTANT
-Les pages sont générées pour l'adresse https://www.metix.ma.
+Les pages sont générées pour l'adresse https://www.mobidar.ma.
 Si votre domaine est différent, ou si vous modifiez les produits, les prix
 ou les coordonnées, le site doit être régénéré (demandez-le à Claude).

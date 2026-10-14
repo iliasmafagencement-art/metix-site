@@ -1,6 +1,6 @@
 const SITE = {
   slogan: 'Le mobilier qui donne forme à vos idées.',
-  mention: 'FABRICATION • SERVICE • AMÉNAGEMENT',
+  mention: 'LE MOBILIER PRO, SAVOIR-FAIRE MAROCAIN',
   variantes: [
     'Des espaces bien pensés, des journées mieux vécues.',
     'Du mobilier durable pour des espaces qui vous ressemblent.',
@@ -160,7 +160,7 @@ const BODY={
   board(o){let s=R(66,48,268,164,'d-l',5)+R(76,58,248,144,'d-b',2)+Pa('M104 172 L146 126 L184 146 L234 96 L290 114','d-s')+Ci(146,126,4,'d-r')+Ci(234,96,4,'d-r')+Ln(104,88,170,88)+Ln(104,100,150,100)+R(150,212,100,6,'d-h',2);if(o.stand)s+=Pa('M118 218 L102 246 M282 218 L298 246','d-n')+Ln(80,246,124,246)+Ln(276,246,320,246)+Ci(84,249,3.5)+Ci(120,249,3.5)+Ci(280,249,3.5)+Ci(316,249,3.5);return s;},
   cork(){return R(72,52,256,176,'d-w',5)+R(82,62,236,156,'d-k',2)+R(104,84,56,44,'d-b',1)+R(176,100,62,48,'d-a',1)+R(252,80,44,60,'d-b',1)+R(118,150,70,44,'d-a',1)+R(214,162,58,40,'d-b',1)+[[132,88],[207,104],[274,84],[153,154],[243,166]].map(p=>Ci(p[0],p[1],4,'d-r')).join('');},
   accueil(){return R(92,150,216,10,'d-w',2)+R(100,160,200,92,'d-l',2)+R(62,108,276,10,'d-w',2)+R(70,118,260,134,'d-l',3)+R(70,196,260,8,'d-a',1)+Ln(200,130,200,184)+plinth(66,268);},
-  mark(){return Pa('M110 70 L170 70 L200 112 L230 70 L290 70 L200 196 Z','d-a')+Pa('M170 70 L200 112 L230 70 L252 70 L200 146 L148 70 Z','d-l');}
+  mark(){return Pa('M140 236 V130 A60 60 0 0 1 260 130 V236 H234 V132 A34 34 0 0 0 166 132 V236 Z','d-a')+Pa('M166 236 V132 A34 34 0 0 1 234 132 V236 Z','d-l');}
 };
 function drawingKey(p){
   const n=norm((p.nom||'')+' '+(p.desc||''));
@@ -193,9 +193,9 @@ function drawingInner(key){
 }
 const drawingSvg=key=>`<svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false">${drawingInner(key)}</svg>`;
 function heroSvg(){
-  return `<svg viewBox="0 0 640 480" role="img" aria-label="Dessin d’un poste de travail METIX : rayonnage, bureau de direction, fauteuil et armoire métallique." preserveAspectRatio="xMidYMid meet">
-  <path class="d-chev" d="M92 60 L212 60 L320 214 L428 60 L548 60 L320 380 Z"/>
-  <path class="d-chev2" d="M212 60 L320 214 L428 60"/>
+  return `<svg viewBox="0 0 640 480" role="img" aria-label="Dessin d’un poste de travail Mobidar : rayonnage, bureau de direction, fauteuil et armoire métallique." preserveAspectRatio="xMidYMid meet">
+  <path class="d-chev" d="M150 404 V214 A170 170 0 0 1 490 214 V404 H446 V218 A126 126 0 0 0 194 218 V404 Z"/>
+  <path class="d-chev2" d="M194 404 V218 A126 126 0 0 1 446 218 V404"/>
   <line class="d-g" x1="30" y1="404" x2="610" y2="404"/>
   <g transform="translate(-20 150) scale(.85)">${BODY.shelving()}</g>
   <g transform="translate(400 152) scale(.85)">${BODY.cabinet()}</g>
@@ -272,7 +272,7 @@ function recompute(){
 recompute();
 /* ---------- Adresses des pages ----------
    ROUTING = 'path' pour le site en ligne (/catalogue/, /produit/…/), 'hash' pour le fichier unique. */
-const ROUTING='path', BASE='/', SITE_URL='https://www.metix.ma';
+const ROUTING='path', BASE='/', SITE_URL='https://www.mobidar.ma';
 const slugify=s=>norm(s).replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
 let SLUG={}, SLUG2ID={};
 function buildSlugs(){ SLUG={}; SLUG2ID={}; VIS.forEach(p=>{ let sl=slugify(p.nom)+(p.ref?'-'+slugify(p.ref):''); if(!sl||SLUG2ID[sl]) sl+=(sl?'-':'')+slugify(p.id); SLUG[p.id]=sl; SLUG2ID[sl]=p.id; }); }
@@ -310,22 +310,22 @@ const strip=h=>String(h).replace(/<[^>]+>/g,'');
 function seoFor(){
   const v=state.view;
   if(v==='product'){ const p=prodOf(state.pid), c=catOf(p.cat), from=hasVar(p)&&p.prixMax>p.prix, price=typeof p.prix==='number'?(from?'dès ':'')+fmtDH(p.prix):'';
-    return {title:`${p.nom}${p.ref?' '+p.ref:''}${price?' — '+price:''} | METIX`,
-      desc:clip(`${p.nom}${p.ref?' (réf. '+p.ref+')':''}${price?(from?' ':' à ')+price:''}${hasVar(p)?', '+plural(p.variantes.length,'dimension')+' au choix':''}. ${p.desc?p.desc.replace(/\.?$/,'. '):''}${c.nom} METIX : demandez votre devis en ligne.`),
+    return {title:`${p.nom}${p.ref?' '+p.ref:''}${price?' — '+price:''} | Mobidar`,
+      desc:clip(`${p.nom}${p.ref?' (réf. '+p.ref+')':''}${price?(from?' ':' à ')+price:''}${hasVar(p)?', '+plural(p.variantes.length,'dimension')+' au choix':''}, livraison partout au Maroc. ${p.desc?p.desc.replace(/\.?$/,'. '):''}${c.nom} Mobidar : demandez votre devis en ligne.`),
       path:U.prod(p), index:true}; }
   if(v==='catalog'){ const c=state.cat!=='tous'&&catOf(state.cat);
-    if(c){ const st=catStats(c); return {title:`${c.nom} — ${plural(st.n,'modèle')}${st.min!==null?' dès '+fmtDH(st.min):''} | METIX`, desc:clip(strip(catIntro(c))+' Devis en ligne chez METIX.'), path:U.cat(c.id), index:true}; }
-    return {title:`Catalogue mobilier de bureau et scolaire — ${plural(VIS.length,'référence')} | METIX`, desc:clip(`Catalogue METIX : ${plural(VIS.length,'référence')} de bureaux, fauteuils, tables de réunion, armoires, rayonnages, vestiaires et mobilier scolaire, avec prix en dirhams.`), path:U.cat('tous'), index:true}; }
-  if(v==='cart') return {title:'Votre panier et demande de devis | METIX', desc:'Réunissez vos produits et préparez votre demande de devis METIX.', path:U.cart(), index:false};
-  if(v==='notfound') return {title:'Page introuvable | METIX', desc:'Cette page n’existe pas ou a été déplacée.', path:null, index:false};
-  return {title:'METIX — Mobilier de bureau, rangement et mobilier scolaire', desc:clip(`METIX fabrique, conseille et aménage : bureaux, fauteuils, tables de réunion, armoires, rayonnages, vestiaires et mobilier scolaire. ${plural(VIS.length,'référence')}, devis en ligne.`), path:U.home(), index:true};
+    if(c){ const st=catStats(c); return {title:`${c.nom} au Maroc — ${plural(st.n,'modèle')}${st.min!==null?' dès '+fmtDH(st.min):''} | Mobidar`, desc:clip(`${c.nom} : livraison partout au Maroc. ${strip(catIntro(c))} Devis en ligne chez Mobidar.`), path:U.cat(c.id), index:true}; }
+    return {title:`Catalogue mobilier de bureau et scolaire au Maroc — ${plural(VIS.length,'référence')} | Mobidar`, desc:clip(`Catalogue Mobidar : ${plural(VIS.length,'référence')} de bureaux, fauteuils, armoires, rayonnages, vestiaires et mobilier scolaire. Prix en dirhams, livraison partout au Maroc.`), path:U.cat('tous'), index:true}; }
+  if(v==='cart') return {title:'Votre panier et demande de devis | Mobidar', desc:'Réunissez vos produits et préparez votre demande de devis Mobidar.', path:U.cart(), index:false};
+  if(v==='notfound') return {title:'Page introuvable | Mobidar', desc:'Cette page n’existe pas ou a été déplacée.', path:null, index:false};
+  return {title:'Mobidar — Mobilier de bureau et scolaire au Maroc', desc:clip(`Mobidar, mobilier de bureau et scolaire au Maroc. Livraison à Casablanca, Rabat, Marrakech, Tanger, Fès, Agadir et partout au Maroc. Devis en ligne gratuit.`), path:U.home(), index:true};
 }
 /* Données structurées schema.org (écrites dans chaque page générée). */
 function jsonLdFor(){
-  const abs=pth=>SITE_URL.replace(/\/$/,'')+pth, org={'@type':'Organization','name':'METIX','url':abs('/')};
+  const abs=pth=>SITE_URL.replace(/\/$/,'')+pth, org={'@type':'Organization','name':'Mobidar','url':abs('/')};
   const crumbs=items=>({'@context':'https://schema.org','@type':'BreadcrumbList','itemListElement':items.map((it,i)=>({'@type':'ListItem','position':i+1,'name':it[0],'item':abs(it[1])}))});
   const out=[];
-  if(state.view==='product'){ const p=prodOf(state.pid), c=catOf(p.cat), d={'@context':'https://schema.org','@type':'Product','name':p.nom,'category':c.nom,'brand':{'@type':'Brand','name':'METIX'},'url':abs(U.prod(p))};
+  if(state.view==='product'){ const p=prodOf(state.pid), c=catOf(p.cat), d={'@context':'https://schema.org','@type':'Product','name':p.nom,'category':c.nom,'brand':{'@type':'Brand','name':'Mobidar'},'url':abs(U.prod(p))};
     if(p.ref) d.sku=p.ref; if(p.desc) d.description=p.desc;
     const img=p.photo?photoSrc(p.photo):p.image; if(img) d.image=/^https?:/.test(img)?img:abs('/'+img.replace(/^\//,''));
     if(hasVar(p)&&typeof p.prix==='number'&&p.prixMax>p.prix) d.offers={'@type':'AggregateOffer','lowPrice':String(p.prix),'highPrice':String(p.prixMax),'offerCount':String(p.variantes.length),'priceCurrency':'MAD','availability':'https://schema.org/'+(epuise(p)?'OutOfStock':'InStock'),'url':abs(U.prod(p)),'seller':org};
@@ -333,11 +333,11 @@ function jsonLdFor(){
     out.push(d, crumbs([['Accueil','/'],['Catalogue',U.cat('tous')],[c.nom,U.cat(c.id)],[p.nom,U.prod(p)]])); }
   else if(state.view==='catalog'){ const c=state.cat!=='tous'&&catOf(state.cat);
     out.push(crumbs(c?[['Accueil','/'],['Catalogue',U.cat('tous')],[c.nom,U.cat(c.id)]]:[['Accueil','/'],['Catalogue',U.cat('tous')]])); }
-  else if(state.view==='home'){ const k=SITE.contact, d={'@context':'https://schema.org','@type':k.adresse?'LocalBusiness':'Organization','name':'METIX','url':abs('/'),'logo':abs('/assets/logo.jpg'),'image':abs('/assets/og.png'),'slogan':SITE.slogan,'description':'Fabrication, service et aménagement : mobilier de bureau, rangement, vestiaires et mobilier scolaire.'};
+  else if(state.view==='home'){ const k=SITE.contact, d={'@context':'https://schema.org','@type':k.adresse?'LocalBusiness':'Organization','name':'Mobidar','url':abs('/'),'logo':abs('/assets/logo.jpg'),'image':abs('/assets/og.png'),'slogan':SITE.slogan,'description':'Fabrication, service et aménagement : mobilier de bureau, rangement, vestiaires et mobilier scolaire, avec livraison partout au Maroc.','areaServed':{'@type':'Country','name':'Maroc'}};
     if(k.adresse) d.address={'@type':'PostalAddress','streetAddress':k.adresse,'addressCountry':'MA'};
     if(k.telephone) d.telephone=k.telephone; if(k.email) d.email=k.email;
     const same=SITE.reseaux.map(r=>r.url).filter(u=>/^https?:\/\//.test(u||'')); if(same.length) d.sameAs=same;
-    out.push(d, {'@context':'https://schema.org','@type':'WebSite','name':'METIX','url':abs('/'),'inLanguage':'fr-MA'}); }
+    out.push(d, {'@context':'https://schema.org','@type':'WebSite','name':'Mobidar','url':abs('/'),'inLanguage':'fr-MA'}); }
   return out;
 }
 function applySeo(){
@@ -428,7 +428,7 @@ function viewHome(){
   <section class="hero"><div class="wrap hero-grid">
     <div>
       <h1>${sloganHtml()}</h1>
-      <p class="lead">METIX fabrique, conseille et aménage. Bureaux, fauteuils, tables, rangements, vestiaires et mobilier scolaire pour équiper vos espaces.</p>
+      <p class="lead">Mobidar fabrique, conseille et aménage. Bureaux, fauteuils, tables, rangements, vestiaires et mobilier scolaire, livrés partout au Maroc.</p>
       <div class="cta">
         <a class="btn btn-red" href="${U.cat('tous')}" data-go="catalog" data-cat="tous">Découvrir nos produits ${icArrow}</a>
         <a class="btn btn-ghost" href="${U.cart()}" data-go="cart">Demander un devis</a>
@@ -454,7 +454,7 @@ function viewHome(){
     <ol class="steps">
       <li><h3>Choisissez</h3><p>Parcourez le catalogue et ajoutez au panier les produits qui vous intéressent.</p></li>
       <li><h3>Décrivez votre projet</h3><p>Quantités, espaces à équiper, contraintes : le formulaire prépare votre demande.</p></li>
-      <li><h3>Recevez une proposition</h3><p>METIX revient vers vous avec un devis adapté à votre besoin.</p></li>
+      <li><h3>Recevez une proposition</h3><p>Mobidar revient vers vous avec un devis adapté à votre besoin.</p></li>
       <li><h3>Fabrication et aménagement</h3><p>Nous menons votre projet de l’idée jusqu’à l’installation.</p></li>
     </ol>
   </div></section>
@@ -531,7 +531,7 @@ function viewProduct(){
           <button type="button" class="btn btn-ghost" data-quote="${key}">Demander un devis</button>
         </div>`}
         <div class="share"><span>Partager ce produit</span>
-          <a href="https://wa.me/?text=${encodeURIComponent(p.nom+(p.ref?' (réf. '+p.ref+')':'')+' — METIX\n'+shareUrl(p))}" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://wa.me/?text=${encodeURIComponent(p.nom+(p.ref?' (réf. '+p.ref+')':'')+' — Mobidar\n'+shareUrl(p))}" target="_blank" rel="noopener">WhatsApp</a>
           <button type="button" data-share="${p.id}">Copier le lien</button></div>
         ${rows.length?`<table class="spec"><caption>Informations produit</caption><tbody>${rows.map(r=>`<tr><th scope="row">${r[0]}</th><td>${r[1]}</td></tr>`).join('')}</tbody></table>`:''}
       </div>
@@ -598,7 +598,7 @@ function lineHtml(p,q){
 }
 function summaryText(){
   const f=state.form, lines=Object.keys(state.cart).map(id=>{ const it=itemOf(id); return `- ${state.cart[id]} × ${it.nom}${it.ref?' (réf. '+it.ref+')':''}`; });
-  return ['DEMANDE DE DEVIS — METIX','',`Nom : ${f.nom||''}`,`Société : ${f.societe||''}`,`E-mail : ${f.email||''}`,`Téléphone : ${f.tel||''}`,'',
+  return ['DEMANDE DE DEVIS — MOBIDAR','',`Nom : ${f.nom||''}`,`Société : ${f.societe||''}`,`E-mail : ${f.email||''}`,`Téléphone : ${f.tel||''}`,'',
     'Produits demandés :',...(lines.length?lines:['- Aucun produit sélectionné']),'','Message :',f.message||'—'].join('\n');
 }
 function fieldError(k,v){
@@ -626,7 +626,7 @@ function viewCart(){
   let side;
   if(state.recap){
     side=`<div class="panel"><h2>Récapitulatif de votre demande</h2>
-      <div class="notice">${SITE.formulaireConnecte?'Votre demande a été transmise.':(wa||mail)?'Votre demande est prête. Envoyez-la à METIX avec le bouton ci-dessous, ou copiez le récapitulatif.':PUBLIC_MODE?'Copiez ce récapitulatif pour l’envoyer à METIX.':'Cette démonstration n’envoie aucun message : le formulaire n’est pas encore relié à une messagerie. Copiez le récapitulatif pour l’envoyer à METIX.'}</div>
+      <div class="notice">${SITE.formulaireConnecte?'Votre demande a été transmise.':(wa||mail)?'Votre demande est prête. Envoyez-la à Mobidar avec le bouton ci-dessous, ou copiez le récapitulatif.':PUBLIC_MODE?'Copiez ce récapitulatif pour l’envoyer à Mobidar.':'Cette démonstration n’envoie aucun message : le formulaire n’est pas encore relié à une messagerie. Copiez le récapitulatif pour l’envoyer à Mobidar.'}</div>
       <label class="sr" for="recap">Récapitulatif</label><textarea id="recap" class="recap" readonly>${esc(state.recap)}</textarea>
       <div class="row">${wa?`<a class="btn btn-blue" href="${esc(wa+'?text='+encodeURIComponent(state.recap))}" target="_blank" rel="noopener">Envoyer par WhatsApp</a>`:''}${mail?`<a class="btn btn-blue" href="${esc('mailto:'+mail+'?subject='+encodeURIComponent('Demande de devis')+'&body='+encodeURIComponent(state.recap))}">Envoyer par e-mail</a>`:''}<button type="button" class="btn btn-red" data-copy>Copier le récapitulatif</button><button type="button" class="btn btn-ghost" data-edit>Modifier ma demande</button></div></div>`;
   } else {
@@ -658,12 +658,12 @@ function renderFooter(){
     .map(r=>`<li>${/^https?:\/\//i.test(r.url||'')?`<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.nom)}</a>`:`${esc(r.nom)} : ${todo('lien')}`}</li>`);
   const nav=`<li><a class="linklike" href="${U.cat('tous')}" data-go="catalog" data-cat="tous">Catalogue</a></li><li><a class="linklike" href="${U.cart()}" data-go="cart">Demander un devis</a></li>`;
   $('#footer').innerHTML=`<div class="wrap"><div class="cols">
-    <div><a class="brand" href="${U.home()}" data-go="home" aria-label="METIX, retour à l’accueil"><img src="${LOGO_SRC}" width="760" height="252" alt="METIX"></a>
+    <div><a class="brand" href="${U.home()}" data-go="home" aria-label="Mobidar, retour à l’accueil"><img src="${LOGO_SRC}" width="1015" height="300" alt="Mobidar"></a>
       <p class="tag">${esc(SITE.slogan)}</p></div>
     <div><h2>Coordonnées</h2><ul>${lis.join('')}</ul></div>
     <div><h2>${soc.length?'Réseaux sociaux':'Navigation'}</h2><ul>${soc.length?soc.join(''):nav}</ul></div>
   </div>
-  <nav class="foot-cats" aria-label="Catégories"><h2>Catégories</h2><ul>${CATS_VIS.map(c=>`<li><a href="${U.cat(c.id)}" data-go="catalog" data-cat="${c.id}">${esc(c.nom)}</a></li>`).join('')}</ul></nav><div class="legal"><span>© METIX — ${esc(SITE.mention)}</span>${pub?'':`<span>Mentions légales : ${todo('')}</span>`}</div></div>`;
+  <nav class="foot-cats" aria-label="Catégories"><h2>Catégories</h2><ul>${CATS_VIS.map(c=>`<li><a href="${U.cat(c.id)}" data-go="catalog" data-cat="${c.id}">${esc(c.nom)}</a></li>`).join('')}</ul></nav><div class="legal"><span>© Mobidar — ${esc(SITE.mention)}</span>${pub?'':`<span>Mentions légales : ${todo('')}</span>`}</div></div>`;
 }
 
 let lastCount=cartCount();

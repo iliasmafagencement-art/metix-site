@@ -5,7 +5,7 @@
                          "ref":  "C1284",
                          "cat":  "bureaux",
                          "nom":  "Bureau de travail",
-                         "prix":  2590,
+                         "prix":  2200,
                          "dims":  "",
                          "desc":  "",
                          "epuise":  false,
@@ -13,7 +13,8 @@
                          "image":  "/assets/photos/c1284-1.jpg",
                          "galerie":  [
                                          "/assets/photos/c1284-2.jpg"
-                                     ]
+                                     ],
+                         "prixAvant":  2750
                      },
                      {
                          "id":  "bd-panama",
@@ -32,82 +33,87 @@
                          "ref":  "",
                          "cat":  "bureaux",
                          "nom":  "Bureau droit Malabo",
-                         "prix":  null,
-                         "dims":  "",
+                         "prix":  3400,
+                         "dims":  "Bureau 200 cm, retour 120 × 40 × 75 cm",
                          "desc":  "Bureau droit à plan de travail rectangulaire, pour un poste individuel",
                          "epuise":  false,
                          "accueil":  false,
                          "image":  "/assets/photos/bd-malabo-1.jpg",
                          "galerie":  [
                                          "/assets/photos/bd-malabo-2.jpg"
-                                     ]
+                                     ],
+                         "prixAvant":  4250
                      },
                      {
                          "id":  "bd-madrid",
                          "ref":  "",
                          "cat":  "bureaux",
                          "nom":  "Bureau droit Madrid",
-                         "prix":  null,
-                         "dims":  "",
+                         "prix":  2850,
+                         "dims":  "140 cm",
                          "desc":  "Bureau droit à plan de travail rectangulaire, pour un poste individuel",
                          "epuise":  false,
                          "accueil":  false,
                          "image":  "/assets/photos/bd-madrid-1.jpg",
                          "galerie":  [
                                          "/assets/photos/bd-madrid-2.jpg"
-                                     ]
+                                     ],
+                         "prixAvant":  3600
                      },
                      {
                          "id":  "bd-kyo",
                          "ref":  "",
                          "cat":  "bureaux",
                          "nom":  "Bureau droit Kyo",
-                         "prix":  null,
-                         "dims":  "",
+                         "prix":  1700,
+                         "dims":  "120 cm",
                          "desc":  "Bureau droit à plan de travail rectangulaire, pour un poste individuel",
                          "epuise":  false,
                          "accueil":  false,
                          "image":  "/assets/photos/bd-kyo-1.jpg",
                          "galerie":  [
                                          "/assets/photos/bd-kyo-2.jpg"
-                                     ]
+                                     ],
+                         "prixAvant":  2150
                      },
                      {
                          "id":  "bd-tokyo",
                          "ref":  "",
                          "cat":  "bureaux",
                          "nom":  "Bureau droit Tokyo",
-                         "prix":  null,
-                         "dims":  "",
+                         "prix":  2500,
+                         "dims":  "120 cm",
                          "desc":  "Bureau droit à plan de travail rectangulaire, pour un poste individuel",
                          "epuise":  false,
                          "accueil":  false,
                          "image":  "/assets/photos/bd-tokyo-1.jpg",
                          "galerie":  [
                                          "/assets/photos/bd-tokyo-2.jpg"
-                                     ]
+                                     ],
+                         "prixAvant":  3150
                      },
                      {
                          "id":  "ba-individuel",
                          "ref":  "",
                          "cat":  "bureaux",
                          "nom":  "Bureau d\u0027angle en L individuel",
-                         "prix":  null,
-                         "dims":  "",
+                         "prix":  3200,
+                         "dims":  "160 × 80 × 75 cm",
                          "desc":  "Bureau avec retour en L pour un poste, plus de surface de travail, retour à gauche ou à droite",
                          "epuise":  false,
                          "accueil":  false,
                          "image":  "/assets/photos/ba-individuel-1.jpg",
                          "galerie":  [
                                          "/assets/photos/ba-individuel-2.jpg"
-                                     ]
+                                     ],
+                         "prixAvant":  4000
                      },
                      {
                          "id":  "ba-deux-places",
                          "ref":  "",
                          "cat":  "bureaux",
                          "nom":  "Bureau d\u0027angle en L deux places",
-                         "prix":  null,
+                         "prix":  6000,
                          "dims":  "",
                          "desc":  "Bureau d\u0027angle en L pour deux postes de travail, retour à gauche ou à droite",
                          "epuise":  false,
@@ -115,14 +121,15 @@
                          "image":  "/assets/photos/ba-deux-places-1.jpg",
                          "galerie":  [
                                          "/assets/photos/ba-deux-places-2.jpg"
-                                     ]
+                                     ],
+                         "prixAvant":  7500
                      },
                      {
                          "id":  "bb-2",
                          "ref":  "BB-2",
                          "cat":  "bureaux",
                          "nom":  "Bureau bench open space 2 places",
-                         "prix":  null,
+                         "prix":  3700,
                          "dims":  "",
                          "desc":  "Deux postes de travail face à face sur piètement commun, pour les open spaces",
                          "epuise":  false,
@@ -133,14 +140,15 @@
                                          "/assets/photos/bb-2-3.jpg",
                                          "/assets/photos/bb-2-4.jpg",
                                          "/assets/photos/bb-2-5.jpg"
-                                     ]
+                                     ],
+                         "prixAvant":  4650
                      },
                      {
                          "id":  "bb-4",
                          "ref":  "BB-4",
                          "cat":  "bureaux",
                          "nom":  "Bureau bench open space 4 places",
-                         "prix":  null,
+                         "prix":  9500,
                          "dims":  "",
                          "desc":  "Quatre postes de travail face à face sur piètement commun, pour les open spaces",
                          "epuise":  false,
@@ -148,19 +156,21 @@
                          "image":  "/assets/photos/bb-4-1.jpg",
                          "galerie":  [
                                          "/assets/photos/bb-4-2.jpg"
-                                     ]
+                                     ],
+                         "prixAvant":  11900
                      },
                      {
                          "id":  "bb-6",
                          "ref":  "BB-6",
                          "cat":  "bureaux",
                          "nom":  "Bureau bench open space 6 places",
-                         "prix":  null,
+                         "prix":  13000,
                          "dims":  "",
                          "desc":  "Six postes de travail face à face sur piètement commun, pour les open spaces",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  "/assets/photos/bb-6-1.jpg"
+                         "image":  "/assets/photos/bb-6-1.jpg",
+                         "prixAvant":  16250
                      },
                      {
                          "id":  "accueil-oslo",
@@ -176,17 +186,20 @@
                                            {
                                                "ref":  "",
                                                "dims":  "120 cm",
-                                               "prix":  null
+                                               "prix":  2290,
+                                               "prixAvant":  2900
                                            },
                                            {
                                                "ref":  "",
                                                "dims":  "140 cm",
-                                               "prix":  null
+                                               "prix":  2790,
+                                               "prixAvant":  3500
                                            },
                                            {
                                                "ref":  "",
                                                "dims":  "160 cm",
-                                               "prix":  null
+                                               "prix":  3290,
+                                               "prixAvant":  4150
                                            }
                                        ],
                          "image":  "/assets/photos/accueil-oslo-1.jpg",
@@ -208,17 +221,20 @@
                                            {
                                                "ref":  "",
                                                "dims":  "120 cm",
-                                               "prix":  null
+                                               "prix":  3500,
+                                               "prixAvant":  4400
                                            },
                                            {
                                                "ref":  "",
                                                "dims":  "140 cm",
-                                               "prix":  null
+                                               "prix":  4000,
+                                               "prixAvant":  5000
                                            },
                                            {
                                                "ref":  "",
                                                "dims":  "160 cm",
-                                               "prix":  null
+                                               "prix":  4200,
+                                               "prixAvant":  5250
                                            }
                                        ],
                          "image":  "/assets/photos/accueil-milano-1.jpg"
@@ -237,17 +253,20 @@
                                            {
                                                "ref":  "",
                                                "dims":  "120 cm",
-                                               "prix":  null
+                                               "prix":  2399,
+                                               "prixAvant":  3000
                                            },
                                            {
                                                "ref":  "",
                                                "dims":  "140 cm",
-                                               "prix":  null
+                                               "prix":  2699,
+                                               "prixAvant":  3400
                                            },
                                            {
                                                "ref":  "",
                                                "dims":  "160 cm",
-                                               "prix":  null
+                                               "prix":  3299,
+                                               "prixAvant":  4150
                                            }
                                        ],
                          "image":  "/assets/photos/accueil-dubai-1.jpg",
@@ -269,17 +288,20 @@
                                            {
                                                "ref":  "",
                                                "dims":  "120 cm",
-                                               "prix":  null
+                                               "prix":  2400,
+                                               "prixAvant":  3000
                                            },
                                            {
                                                "ref":  "",
                                                "dims":  "140 cm",
-                                               "prix":  null
+                                               "prix":  2700,
+                                               "prixAvant":  3400
                                            },
                                            {
                                                "ref":  "",
                                                "dims":  "160 cm",
-                                               "prix":  null
+                                               "prix":  3300,
+                                               "prixAvant":  4150
                                            }
                                        ],
                          "image":  "/assets/photos/accueil-lisboa-1.jpg"
@@ -297,18 +319,9 @@
                          "variantes":  [
                                            {
                                                "ref":  "",
-                                               "dims":  "120 cm",
-                                               "prix":  null
-                                           },
-                                           {
-                                               "ref":  "",
-                                               "dims":  "140 cm",
-                                               "prix":  null
-                                           },
-                                           {
-                                               "ref":  "",
-                                               "dims":  "160 cm",
-                                               "prix":  null
+                                               "dims":  "180 cm",
+                                               "prix":  5200,
+                                               "prixAvant":  6500
                                            }
                                        ],
                          "image":  "/assets/photos/accueil-vienna-1.jpg"
@@ -323,7 +336,7 @@
                          "desc":  "Simili cuir noir rembourré, piètement chromé à 5 branches avec roulettes",
                          "epuise":  true,
                          "accueil":  true,
-                         "image":  null
+                         "prixAvant":  2000
                      },
                      {
                          "id":  "c1281",
@@ -335,7 +348,7 @@
                          "desc":  "",
                          "epuise":  false,
                          "accueil":  true,
-                         "image":  null
+                         "prixAvant":  6250
                      },
                      {
                          "id":  "c1280",
@@ -347,7 +360,7 @@
                          "desc":  "Forme rectangulaire, piètement plein, passe-câbles, panneau dérivé du bois mélaminé",
                          "epuise":  true,
                          "accueil":  true,
-                         "image":  null
+                         "prixAvant":  6250
                      },
                      {
                          "id":  "c1279",
@@ -359,7 +372,8 @@
                          "desc":  "",
                          "epuise":  false,
                          "accueil":  true,
-                         "image":  "/assets/photos/c1279-1.jpg"
+                         "image":  "/assets/photos/c1279-1.jpg",
+                         "prixAvant":  5400
                      },
                      {
                          "id":  "c1267",
@@ -371,7 +385,7 @@
                          "desc":  "Modèle destiné aux classes et centres de formation",
                          "epuise":  false,
                          "accueil":  true,
-                         "image":  null
+                         "prixAvant":  1500
                      },
                      {
                          "id":  "c1266",
@@ -383,7 +397,7 @@
                          "desc":  "Modèle individuel et compact",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  null
+                         "prixAvant":  1000
                      },
                      {
                          "id":  "c1258",
@@ -395,7 +409,7 @@
                          "desc":  "Pack de trois fauteuils : deux fauteuils et un fauteuil haut avec appui-tête, simili cuir, mousse et base métallique",
                          "epuise":  true,
                          "accueil":  false,
-                         "image":  null
+                         "prixAvant":  17400
                      },
                      {
                          "id":  "b2417",
@@ -407,7 +421,8 @@
                          "desc":  "Bureau en bois avec retour, plateau et deux pieds de 38 mm, profondeur indiquée 800 mm",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  "/assets/photos/b2417-1.jpg"
+                         "image":  "/assets/photos/b2417-1.jpg",
+                         "prixAvant":  5500
                      },
                      {
                          "id":  "b1055",
@@ -419,7 +434,7 @@
                          "desc":  "Bureau en bois avec retour sur meuble fixe, plateau et piètement de 38 mm, profondeur indiquée 800 mm",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  null
+                         "prixAvant":  6150
                      },
                      {
                          "id":  "b2504",
@@ -431,7 +446,8 @@
                          "desc":  "Plateau mélaminé de 60 mm, chants ABS antichoc 2 mm",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  "/assets/photos/b2504-1.jpg"
+                         "image":  "/assets/photos/b2504-1.jpg",
+                         "prixAvant":  6750
                      },
                      {
                          "id":  "b3989",
@@ -443,7 +459,8 @@
                          "desc":  "Dimensions présentées comme approximatives sur la fiche",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  "/assets/photos/b3989-1.jpg"
+                         "image":  "/assets/photos/b3989-1.jpg",
+                         "prixAvant":  11500
                      },
                      {
                          "id":  "b3270",
@@ -458,7 +475,8 @@
                          "image":  "/assets/photos/b3270-1.jpg",
                          "galerie":  [
                                          "/assets/photos/b3270-2.jpg"
-                                     ]
+                                     ],
+                         "prixAvant":  9250
                      },
                      {
                          "id":  "b2028",
@@ -470,7 +488,8 @@
                          "desc":  "Bureau de direction avec piètement bois et retour sur caisson fixe",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  "/assets/photos/b2028-1.jpg"
+                         "image":  "/assets/photos/b2028-1.jpg",
+                         "prixAvant":  3650
                      },
                      {
                          "id":  "b4237",
@@ -482,7 +501,8 @@
                          "desc":  "",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  "/assets/photos/b4237-1.jpg"
+                         "image":  "/assets/photos/b4237-1.jpg",
+                         "prixAvant":  6250
                      },
                      {
                          "id":  "b2651",
@@ -497,7 +517,8 @@
                          "image":  "/assets/photos/b2651-1.jpg",
                          "galerie":  [
                                          "/assets/photos/b2651-2.jpg"
-                                     ]
+                                     ],
+                         "prixAvant":  8750
                      },
                      {
                          "id":  "c1254",
@@ -509,7 +530,7 @@
                          "desc":  "Dossier haut enveloppant, assise et dossier rembourrés",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  null
+                         "prixAvant":  2500
                      },
                      {
                          "id":  "230a",
@@ -521,7 +542,7 @@
                          "desc":  "",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  null
+                         "prixAvant":  3250
                      },
                      {
                          "id":  "es-516",
@@ -533,7 +554,7 @@
                          "desc":  "",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  null
+                         "prixAvant":  1900
                      },
                      {
                          "id":  "c1127",
@@ -545,7 +566,7 @@
                          "desc":  "Simili cuir",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  null
+                         "prixAvant":  2750
                      },
                      {
                          "id":  "c1024",
@@ -557,7 +578,7 @@
                          "desc":  "Mesh, accoudoirs fixes, piètement PVC",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  null
+                         "prixAvant":  1650
                      },
                      {
                          "id":  "c1225",
@@ -569,7 +590,7 @@
                          "desc":  "Table rectangulaire à deux pieds panneaux, plateau en MDF plaqué bois, finition noyer, épaisseur indiquée 40 mm",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  null
+                         "prixAvant":  8150
                      },
                      {
                          "id":  "c1156",
@@ -581,7 +602,7 @@
                          "desc":  "Table de réunion professionnelle",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  null
+                         "prixAvant":  13750
                      },
                      {
                          "id":  "c1028",
@@ -593,7 +614,7 @@
                          "desc":  "Table de réunion professionnelle",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  null
+                         "prixAvant":  3000
                      },
                      {
                          "id":  "a0511",
@@ -611,7 +632,8 @@
                                          "/assets/photos/a0511-3.jpg",
                                          "/assets/photos/a0511-4.jpg",
                                          "/assets/photos/a0511-5.jpg"
-                                     ]
+                                     ],
+                         "prixAvant":  3000
                      },
                      {
                          "id":  "b1985",
@@ -623,7 +645,7 @@
                          "desc":  "Structure métallique monobloc, verrouillage centralisé, 4 roulettes, peinture époxy",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  null
+                         "prixAvant":  1400
                      },
                      {
                          "id":  "a0602",
@@ -638,7 +660,8 @@
                          "image":  "/assets/photos/a0602-1.jpg",
                          "galerie":  [
                                          "/assets/photos/a0602-2.jpg"
-                                     ]
+                                     ],
+                         "prixAvant":  3250
                      },
                      {
                          "id":  "armoire-metallique-2-portes",
@@ -673,7 +696,8 @@
                                          "/assets/photos/a0489-2.jpg",
                                          "/assets/photos/a0489-3.jpg",
                                          "/assets/photos/a0489-4.jpg"
-                                     ]
+                                     ],
+                         "prixAvant":  1100
                      },
                      {
                          "id":  "b1867",
@@ -685,7 +709,7 @@
                          "desc":  "5 tablettes réglables",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  null
+                         "prixAvant":  2150
                      },
                      {
                          "id":  "vestiaire-1-porte",
@@ -717,7 +741,8 @@
                          "image":  "/assets/photos/b1977-1.jpg",
                          "galerie":  [
                                          "/assets/photos/b1977-2.jpg"
-                                     ]
+                                     ],
+                         "prixAvant":  1250
                      },
                      {
                          "id":  "b1869",
@@ -732,7 +757,8 @@
                          "image":  "/assets/photos/b1869-1.jpg",
                          "galerie":  [
                                          "/assets/photos/b1869-2.jpg"
-                                     ]
+                                     ],
+                         "prixAvant":  1400
                      },
                      {
                          "id":  "b1870",
@@ -749,7 +775,8 @@
                                          "/assets/photos/b1870-2.jpg",
                                          "/assets/photos/b1870-3.jpg",
                                          "/assets/photos/b1870-4.jpg"
-                                     ]
+                                     ],
+                         "prixAvant":  1500
                      },
                      {
                          "id":  "vestiaire-9-portes",
@@ -805,7 +832,7 @@
                          "desc":  "Structure métallique, plateau mélaminé 19 mm",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  null
+                         "prixAvant":  450
                      },
                      {
                          "id":  "b2207",
@@ -817,7 +844,7 @@
                          "desc":  "Plusieurs hauteurs proposées",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  null
+                         "prixAvant":  500
                      },
                      {
                          "id":  "b1883",
@@ -829,7 +856,7 @@
                          "desc":  "",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  null
+                         "prixAvant":  700
                      },
                      {
                          "id":  "b1891",
@@ -841,7 +868,7 @@
                          "desc":  "",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  null
+                         "prixAvant":  750
                      },
                      {
                          "id":  "b2206",
@@ -853,7 +880,7 @@
                          "desc":  "Plateau en bois stratifié, pieds en métal",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  null
+                         "prixAvant":  1100
                      },
                      {
                          "id":  "b3678",
@@ -865,7 +892,7 @@
                          "desc":  "Acier émaillé magnétique, surface pour marqueur effaçable, encadrement aluminium",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  null
+                         "prixAvant":  750
                      },
                      {
                          "id":  "a0503",
@@ -877,7 +904,7 @@
                          "desc":  "Acier émaillé magnétique, surface effaçable à sec, encadrement aluminium",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  null
+                         "prixAvant":  500
                      },
                      {
                          "id":  "a0504",
@@ -889,7 +916,7 @@
                          "desc":  "Panneau de particules avec fond liège pour punaises et épingles",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  null
+                         "prixAvant":  250
                      },
                      {
                          "id":  "a0519",
@@ -901,7 +928,7 @@
                          "desc":  "Panneaux de particules mélaminés 18 mm",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  null
+                         "prixAvant":  3150
                      },
                      {
                          "id":  "a0593",
@@ -913,7 +940,7 @@
                          "desc":  "Armoire à portes battantes",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  null
+                         "prixAvant":  3150
                      },
                      {
                          "id":  "a0548",
@@ -925,7 +952,7 @@
                          "desc":  "Panneaux mélaminés 18 mm, poignée métal, fermeture à clé",
                          "epuise":  false,
                          "accueil":  false,
-                         "image":  null
+                         "prixAvant":  1900
                      }
                  ]
 }

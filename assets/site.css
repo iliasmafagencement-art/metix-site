@@ -1,5 +1,5 @@
 /* Direction : catalogue éditorial, fond bleu ciel (même en mode sombre de l'appareil),
-   touche de gris industriel en bas de page. Une seule couleur d'action : le rouge METIX. */
+   touche de gris industriel en bas de page. Une seule couleur d'action : le rouge Mobidar. */
 :root{
   --paper:#C9E7F8; --paper-2:#B6DCF2; --paper-3:#A2CFEA; --surface:#EEF8FD;
   --bg:linear-gradient(180deg,#BCE2F9 0%,#C9E7F8 45%,#D2E6F2 80%,#D6E0E7 100%);
@@ -51,8 +51,8 @@ img{display:block;max-width:100%}
 /* ---------- En-tête ---------- */
 .site-head{position:sticky;top:0;z-index:var(--z-head);background:color-mix(in srgb,var(--paper) 88%,transparent);backdrop-filter:saturate(1.4) blur(14px);-webkit-backdrop-filter:saturate(1.4) blur(14px);border-bottom:1px solid var(--line)}
 .head-grid{display:grid;grid-template-columns:auto 1fr auto auto auto;align-items:center;gap:28px;min-height:var(--head-h)}
-.brand{display:inline-flex;align-items:center;min-height:44px;border-radius:10px}
-.brand img{height:40px;width:auto;mix-blend-mode:multiply}
+.brand{display:inline-flex;align-items:center;justify-self:start;min-height:44px;border-radius:10px}
+.brand img{height:48px;width:auto;mix-blend-mode:multiply}
 .nav{display:flex;gap:4px;justify-self:center}
 .nav a{position:relative;display:inline-block;text-decoration:none;padding:10px 14px;border-radius:999px;font-size:15px;font-weight:500;color:var(--muted);transition:color .2s ease,background-color .2s ease}
 .nav a:hover{color:var(--ink);background:var(--paper-2)}
@@ -352,7 +352,7 @@ img{display:block;max-width:100%}
 .foot{background:var(--foot);color:var(--foot-ink);padding:clamp(56px,7vw,88px) 0 32px}
 .foot .cols{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr) minmax(0,1fr);gap:48px}
 .foot .brand{background:#fff;padding:6px 10px}
-.foot .brand img{height:36px;mix-blend-mode:normal}
+.foot .brand img{height:52px;mix-blend-mode:normal}
 .foot .tag{margin-top:24px;font-family:var(--f-display);font-style:italic;font-size:clamp(1.3rem,2vw,1.7rem);line-height:1.25;color:#fff;max-width:24ch}
 .foot h2{font-family:var(--f-body);font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#fff;opacity:.6;margin-bottom:16px}
 .foot ul{list-style:none;margin:0;padding:0;display:grid;gap:10px;font-size:15px}
@@ -380,7 +380,7 @@ img{display:block;max-width:100%}
   :root{--head-h:64px}
   .head-grid{grid-template-columns:1fr auto auto auto;gap:10px;padding-block:10px}
   .head-quote{height:40px;padding:0 14px}
-  .brand img{height:34px}
+  .brand img{height:40px}
   .menu-btn{display:inline-flex;align-items:center}
   .search{grid-column:1/-1;grid-row:2}
   .search input{width:100%}

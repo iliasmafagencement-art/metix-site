@@ -1,4 +1,4 @@
-# Espace d'administration METIX (Decap CMS) — https://VOTRE-SITE/admin/
+# Espace d'administration Mobidar (Decap CMS) — https://VOTRE-SITE/admin/
 # Connexion avec le compte GitHub ; chaque enregistrement met le site à jour (1 à 2 minutes).
 backend:
   name: github
@@ -11,8 +11,8 @@ backend:
 
 locale: fr
 logo_url: /assets/logo.jpg
-site_url: https://www.metix.ma
-display_url: https://www.metix.ma
+site_url: https://www.mobidar.ma
+display_url: https://www.mobidar.ma
 
 # Photos envoyées depuis l'administration
 media_folder: assets/photos
